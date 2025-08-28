@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FEFD CLASS</title>
+    <link rel="icon" href="KL.jpg" type="image/x-icon" />
+    <style>
+        body {
+            background-color: Lavender;
+            font-family: Verdana, sans-serif;
+            margin: 20px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .banner-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 30px;
+        }
+
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        table {
+            width: 100%;
+            max-width: 400px;
+            border-collapse: collapse;
+            margin-top: 10px;
+            overflow-x: auto;
+            display: block;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            word-wrap: break-word;
+        }
+
+        th {
+            background-color: #dcdcdc;
+        }
+
+        .marquee {
+            background-color: lavender;
+            padding: 10px;
+            overflow: hidden;
+            box-sizing: border-box;
+            position: relative;
+            white-space: nowrap;
+            margin-bottom: 30px;
+        }
+
+        .marquee-content {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee-animation 20s linear infinite;
+        }
+
+        .marquee-content span {
+            color: black;
+            font-weight: bold;
+            margin-right: 20px;
+            display: inline-block;
+        }
+
+        @keyframes marquee-animation {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-50%); }
+        }
+
+        h1, h2, h3, h4 {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        video {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 14px;
+            color: #333;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                margin: 10px;
+                font-size: 14px;
+            }
+
+            table {
+                max-width: 100%;
+                font-size: 12px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            h4 {
+                font-size: 1rem;
+            }
+
+            .marquee-content {
+                animation-duration: 30s; /* slower scroll on smaller screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                margin: 5px;
+                font-size: 13px;
+            }
+
+            a {
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+
+            table, th, td {
+                padding: 6px;
+            }
+
+            video {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <img src="KLU-Hedder-main.jpg" alt="KL University Header Banner Showing Campus and Logo" class="banner-image" /> 
+    
+    <a href="https://www.kluniversity.in" style="color:red; margin-right: 15px;">Home</a>
+
+    <div class="marquee">
+        <div class="marquee-content">
+            <span>Applications Are Open For 2025-2026</span>
+            <span>Apply For KLEEE Phase-2 Exam For 2025-2026</span>
+            <span>Results Declared For KLEEE 2025-2026 Phase-1</span>
+            <span>Admit Cards For KLEEE Phase-2 Exam For 2025-2026</span>
+            <span>Fees Structure Of The Year 2025-2026</span>
+            <span>Applications Are Open For 2025-2026</span>
+            <span>Apply For KLEEE Phase-2 Exam For 2025-2026</span>
+            <span>Results Declared For KLEEE 2025-2026 Phase-1</span>
+            <span>Admit Cards For KLEEE Phase-2 Exam For 2025-2026</span>
+            <span>Fees Structure Of The Year 2025-2026</span>
+        </div>
+    </div>
+
+    <h2>About us</h2>
+    <p>
+        KL University, formerly Koneru Lakshmaiah College of Engineering (KLCE) and Koneru Lakshmaiah University, 
+        is a higher educational institution Deemed to be University, located in Vaddeswaram, near Vijayawada, Andhra Pradesh, India. 
+        Established in 1980 as a college of engineering, it consists of eight schools, offering academic programs at UG, PG, doctoral, and post-doctoral industry-focused courses.
+    </p>
+    
+    <h1>Types of Courses Offered</h1>
+
+    
+    <div class="course-section">
+    <h2>Unordered List</h2>
+    <h4>Undergraduate (UG) Courses</h4>
+
+    <div class="course-list">
+        <ul>
+            <li>Engineering & Technology (B.Tech)
+                <ul>
+                    <li>Artificial Intelligence & Data Science</li>
+                    <li>Computer Science & Engineering</li>
+                    <li>Electronics & Communication Engineering</li>
+                    <li>Electrical & Electronics Engineering</li>
+                    <li>Mechanical Engineering</li>
+                    <li>Civil Engineering</li>
+                    <li>Biotechnology</li>
+                    <li>Internet of Things (IoT)</li>
+                    <li>Computer Science & Information Technology</li>
+                </ul>
+            </li>
+            <li>Management
+                <ul>
+                    <li>BBA</li>
+                    <li>B.Com</li>
+                    <li>BBA + MBA (5-year Integrated)</li>
+                </ul>
+            </li>
+            <li>Law
+                <ul>
+                    <li>BBA-LLB (5-year Integrated)</li>
+                </ul>
+            </li>
+            <li>Science & Arts
+                <ul>
+                    <li>BA</li>
+                    <li>BCA with Specializations:
+                        <ul>
+                            <li>Cloud Technology & Information Security</li>
+                            <li>AI & Process Automation</li>
+                            <li>Data Science</li>
+                            <li>Internet of Things</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Pharmacy
+                <ul>
+                    <li>Bachelor of Pharmacy (B.Pharm)</li>
+                </ul>
+            </li>
+            <li>Architecture
+                <ul>
+                    <li>Bachelor of Architecture (B.Arch)</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <h4>Postgraduate (PG) Courses</h4>
+
+    <div class="course-list">
+        <ul>
+            <li>Engineering & Technology (M.Tech)
+                <ul>
+                    <li>Computer Science & Engineering</li>
+                    <li>AI & Data Science</li>
+                    <li>Cyber Security & Digital Forensics</li>
+                    <li>Structural Engineering</li>
+                    <li>Construction Technology & Management</li>
+                    <li>Automation and Robotics</li>
+                    <li>Internet of Things</li>
+                    <li>VLSI</li>
+                    <li>Power Electronics & Drives</li>
+                    <li>Thermal Engineering</li>
+                </ul>
+            </li>
+            <li>Management (MBA)
+                <ul>
+                    <li>Multi Specializations</li>
+                    <li>FinTech</li>
+                    <li>Logistics & SCM</li>
+                    <li>Business Analytics</li>
+                    <li>Global Program</li>
+                </ul>
+            </li>
+            <li>Science (M.Sc)
+                <ul>
+                    <li>Computational Mathematics</li>
+                    <li>Applied Physics</li>
+                    <li>Chemistry</li>
+                    <li>Nano Science and Technology</li>
+                </ul>
+            </li>
+            <li>Pharmacy
+                <ul>
+                    <li>M.Pharm</li>
+                    <li>Pharm.D</li>
+                </ul>
+            </li>
+            <li>Commerce
+                <ul>
+                    <li>M.Com</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+    <h1>Planning And Development - Studios</h1>
+    <p>
+        Audio-Visual Studios are specialized facilities equipped for creating, editing, and producing multimedia content, including audio and video elements. These studios are commonly used in film, television, radio, music production, advertising, and other media industries.
+    </p>
+    <p>They are designed to support a variety of tasks such as:</p>
+    <ul>
+        <li>Audio Production: Recording voiceovers, music, sound effects, and mixing audio tracks.</li>
+        <li>Video Production: Filming, editing, and producing video content, including films, commercials, and TV shows.</li>
+        <li>Post-Production: Editing and enhancing both audio and video through processes like sound design, color grading, visual effects, and final mixing.</li>
+        <li>Broadcasting: Some studios are set up to support live broadcasting, including live events, news shows, and podcasts.</li>
+    </ul>
+
+    <video controls height="400" width="600">
+        <source src="studio.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Student Information</h2>
+    <table>
+        <tr>
+            <th>Roll Number</th>
+            <th>Name</th>
+            <th>Branch</th>
+        </tr>
+        <tr>
+            <td>2400090202</td>
+            <td>J.Vikram</td>
+            <td>CS&amp;IT</td>
+        </tr>
+        <tr>
+            <td>2400030351</td>
+            <td>Ch.Rohith</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>2400030127</td>
+            <td>D.Siddhartha</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>2400080183</td>
+            <td>T.Saranmani</td>
+            <td>AI&amp;DS</td>
+        </tr>
+        <tr>
+            <td>2400040365</td>
+            <td>Ch.Lohith</td>
+            <td>ECE</td>
+        </tr>
+    </table>
+
+    <h3>Link For The Website</h3>
+    <p>
+        Visit <a href="https://www.kluniversity.in" target="_blank">KL University Official Website</a> for more information.
+    </p>
+
+    <div class="footer">
+        &copy; 2025 KL Deemed to be University. All rights reserved.
+      Create index.html for GitHub Pages
+    </div>
+
+</body>
+</html>
+
